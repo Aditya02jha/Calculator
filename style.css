@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    transition: all 0.5s ease;
+    
+}
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(to bottom right  , rgb(215, 16, 49) , rgb(16, 16, 84)) ;
+}
+.calculator{
+    background: white;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background: rgb(242, 58, 89);
+    font-weight: bold;
+}
+
+.btn-number{
+    /* color: red; */
+    background: rgb(86, 86, 241);
+    font-weight: bolder;
+}
+
+
+
+.toggler-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: white;
+    border: 2px black solid;
+    z-index: 1;
+}
+
+#clear{
+    background: rgb(245, 118, 6);
+}
+
+#display{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50px;
+    border-radius: 15px;
+    width: auto;
+    font-size: larger;
+    margin: 10px ;
+    /* padding: 10px; */
+    overflow: hidden;
+    background: lightgray;
+}
+
+.dark{
+    background: black;
+}
